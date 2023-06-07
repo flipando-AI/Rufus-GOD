@@ -9,12 +9,13 @@
 <body>
 <!-- partial:index.partial.html -->
 <div class="app-header">
-  <h1>Rufus: GOD.  Global Optimizer Data. 
+  <h1>Rufus: GOD -  
+Global Optimizer Data - One Pager
 </h1>
   <h2>
 ¡GOD: El Genio de los Datos para la Optimización Suprema!</h2>
   <div class="app-info">
-    <p>¡Despídete del caos de datos y da la bienvenida a la magia de la optimización! Con GOD, transformá los datos internos y la experiencia en ideas valiosas de forma rápida y divertida. Desenreda la complejidad, explica de manera sencilla , descubre patrones ocultos y toma decisiones basadas en datos con un solo movimiento. ¡Deja que GOD sea tu biblia y guia en este nuevo proyecto!</p>
+    <p>Genera un resumen en una sola página a partir del Brief con las respuestas del cliente. Copia y pega el el brief con sus respuestas y recibe un documento organizado y prolijo con toda la data mas importante y  un extra !</p>
      <div class="app-tags">
       <span class="tag">⭐ Marketing</span>
       <span class="tag">🌐 Social Media</span>
@@ -39,36 +40,14 @@
   </div>
   <div class="form-container">
     <h1>Edit tags</h1>
-    <form id="inputForm">
+    <form id="inputForm">        
       <div class="form-group">
-        <label for="input1">Client Name:</label>
-        <input type="text" id="input1" name="input1" data-hint="Enter the complete name of the client. Example: Cerveza Imperial Argentina not only Imperial" />
+        <label for="input1">Brief Answers:</label>
+        <textarea id="input1" name="input1" data-hint="Copia y pega el Brief que te envio el cliente"></textarea>
         <div class="hint-box"></div>
       </div>
 
-      <div class="form-group">
-        <label for="input2">Client's URL:</label>
-        <input type="text" id="input2" name="input2" data-hint="Enter the URL of the client's website" />
-        <div class="hint-box"></div>
-      </div>
-
-      <div class="form-group">
-        <label for="input3">Client's Wikipedia Context*:</label>
-        <textarea id="input3" name="input3" data-hint="Copy additional context about the client from their Wikipedia page or could also be from other about us section"></textarea>
-        <div class="hint-box"></div>
-      </div>
-
-      <div class="form-group">
-        <label for="input4">Client's News*:</label>
-        <textarea id="input4" name="input4" data-hint="Include any relevant news or updates about the client. You can google the name of the client, go to news, filter by date, and copy and paste the first 10 results with news title, date, and source. "></textarea>
-        <div class="hint-box"></div>
-      </div>
-
-      <div class="form-group">
-        <label for="input5">Additional Client's Context:</label>
-         <textarea id="input5" name="input5" data-hint="Include any other relevant context data. Could be meeting notes or summary of your own notes containing valuable insights of the client that would be interesting to share with the rest of the team "></textarea>
-        <div class="hint-box"></div>
-      </div>
+   
 
       <button type="submit">Generate Prompt</button>
     </form>
